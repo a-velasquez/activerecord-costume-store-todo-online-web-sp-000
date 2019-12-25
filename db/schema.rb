@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.text "description"
   end
 
-  create_table "costumes", force: :cascade do |t|
+  create_table "students", force: :cascade do |t|
     t.string "name"
     t.float "price"
     t.string "size"
